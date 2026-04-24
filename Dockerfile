@@ -1,5 +1,5 @@
 
-FROM openjdk:17-jdk-slim
+FROM eclipse-temurin:17-jdk
 WORKDIR /app
 COPY BusSystem.jar /app/BusSystem.jar
 
